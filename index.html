@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Not IMDb</title>
+    <link rel="icon" href="img/imdblogo.png" />
+    <!-- aici am schimbat logo-ul care apare in tab -->
+  </head>
+  <body>
+    <div id="jumbotron" class="jumbotron text-center">
+      Definitely not
+      <img src="img/imdblogo.png" width="100" height="100" />
+    </div>
+
+    <!-- navbar -->
+
+    <nav
+      class="navbar navbar-expand-sm navbar-light"
+      style="background: #ffd563"
+    >
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV Shows</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Watch
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Latest Trailers</a>
+              <a class="dropdown-item" href="#">Future Releases</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>This week's best TV Show</h3>
+          <br />
+          <h1 class="movie_titles">The Queen's Gambit</h1>
+          <img src="img/queen_gambit_poster.jpg" class="img-fluid" />
+          <br />
+          <p>
+            Orphaned at 9, prodigious introvert Beth Harmon discovers and
+            masters the game of chess in 1960s USA. But, child stardom comes at
+            a price.
+          </p>
+        </div>
+
+        <div class="col-sm-4" style="background-color: #fff6dd">
+          <h3>This week's best movie</h3>
+          <br />
+          <h1 class="movie_titles">Enola Holmes</h1>
+          <br /><br />
+          <img src="img/enola_holmes_poster.jpg" class="img-fluid" />
+          <p>
+            When Enola Holmes—Sherlock’s teen sister—discovers her mother
+            missing, she sets off to find her, becoming a super-sleuth in her
+            own right as she outwits her famous brother and unravels a dangerous
+            conspiracy around a mysterious young Lord. Starring Millie Bobby
+            Brown, Sam Claflin, with Henry Cavill and Helena Bonham-Carter.
+            Directed by Harry Bradbeer (Fleabag).
+          </p>
+        </div>
+
+        <div class="col-sm-4">
+          <h3>This week's best animated movie</h3>
+          <br />
+          <h1 class="movie_titles">A silent voice</h1>
+          <br />
+          <img src="img/silent_voice_poster.jpg" class="img-fluid" />
+          <p>
+            A young man is ostracized by his classmates after he bullies a deaf
+            girl to the point where she moves away. Years later, he sets off on
+            a path for redemption.
+          </p>
+        </div>
+      </div>
+
+      <!-- aici am mai facut un set de 3 coloane pentru a avea trailerele pe aceeasi linie -->
+
+      <div class="row" style="text-align: center">
+        <div class="col-sm-4">
+          <h1>Trailer</h1>
+          <video controls class="img-fluid">
+            <source src="https://imdb-video.media-imdb.com/vi1185857817/1434659607842-pgv4ql-1600961658214.mp4?Expires=1605448689&Signature=qY~3Pfz0Ar119RKP6L1foxTpdB8LPBx8atbY-~qi94fGXWyNywbrNwaV3eDMziGpLDuWmyGBbGXxsK1nS6aQR4OIPMzH1~uFCrDmhyp7yv~BhSvrl-FFtdVzZCi1I1~qpCBieX~G-1lBqmTFwJNYf56hN1rrG~bAPRm77bWKHEfwvWFaE3JEq36CQhjrR2zxpYt30h5KWfblAWDzOtW~lQadDj0L7oW3VRC2Xixkv03C1zGCh45-TXTdyKIz2WCNNDy79WUHGv04wCiKYmdSY9vUvdGFbJTl56Q3F2JwToweL~N4~mwVYeyjIEDqVp7da0FFlcFz-LDkCuRguF~CGg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-sm-4" style="background-color: #fff6dd">
+          <h1>Trailer</h1>
+          <video controls class="img-fluid">
+            <source
+              src="https://imdb-video.media-imdb.com/vi1481096729/1434659607842-pgv4ql-1598360296623.mp4?Expires=1605448614&Signature=vHlOc-4blG0EaulfAgdH8CBvE2uV21FZDs2-DZGNpdWeUSqw61WEB~kHkIzbTSwifLs5PXFPLa4lewsSccjF8fSHiuO~ZbENJli~GvI6wpCdQjyFd6pXll-LENPx-y9cMk6si19BCLwHGTPsZyEtddMC-Xa-KKGmdDu9FJxyqfH6ZgQmlYp98~9P4-f5WyLnbcquYqe36rOknCSOCGLavjTGVK7ySzBzDRC37GPvpd5F6j9XQvO23gGBX18LFmWarpamFDJ4wnM2krcg~ceH0zC829EvADbiyeZFCFsa4QkL3hApZU~sMA7N-TuPzdYGwrXy3MWsgtOdu6VXCap6ug__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-sm-4">
+          <h1>Trailer</h1>
+          <video controls class="img-fluid">
+            <source src="https://imdb-video.media-imdb.com/vi2075180825/1434659607842-pgv4ql-1566493551269.mp4?Expires=1605448735&Signature=GIoT5XDFRwsW52DEaTNzN4k4t79Ppfa8lU9Azn6XVALNxi6QRsl9ZmOqiHP9wTJBYYVWln-h8m1H3zwMsWML2n4v09LNoSL2Q5GwVJlsugV6g2RwJRHkv4aEB~pNXD6IamcWHkGyjrk4eHmvOq63fGl9T6joQnGZsZFXJb6BjTnQVdBOatgh3HKsgaeRqZ6Dh7Yz9gVcvT4u6X~iQLY9mEGT~txsACQ4ll1YGmvK2kKhz-fuXo25L--fexreWsOBQaFqzbuOaZfwthb69f5UB6Trhh3yCr3O5i83TRl2ZwVhdbc7BHTcYjm2wkREoEB30QEngKIdvu4pruDQIyumYg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
