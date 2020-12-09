@@ -1,0 +1,10 @@
+-am reusit sa rezolv problema cu hamburger menu de la tema 1, acum merge cum trebuie
+-toate cerintele pentru tema 2 se afla in pagina "tv_shows.html"
+	-am adaugat clase in mod dinamic si am adaugat animatii in "script.js"
+	-practic, atunci cand se da click pe buton, anumite elemente din lista de mai jos
+	care au clasa "rec" se vor anima spre dreapta si li se va atribui clasa "green"
+	care schimba marimea textului si culoarea textului in verde.
+
+	-carusel de imagini este mai jos. a fost nevoie de width:100% si height:100% pentru
+	clasa ".carousel-inner img" din stylesheet pentru ca imaginile sa fie responsive.
+	
